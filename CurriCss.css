@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&display=swap');
+:root{
+    --varible-color: rgb(55, 0, 255);
+}
+body{
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    color: #1EAA04;
+
+}
+#Abili{
+    color:#067EE5;
+    border-style:double;
+    border-width: 1px 2px 5px;
+    /*border-width: 1px;*/
+    border-color:var(--varible-color);
+}
+#Soft{
+    color:#FF0800;
+    font-family: 'Lato', sans-serif;
+    border-style: double;
+    border-width: 1px 2px 5px;
+    /*border-width: 1px;*/
+    border-color:rgb(255, 0, 0);
+}
+#Nom{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#programinLan{
+    border-style:double;
+    border-width: 1px 2px 5px;
+    /*border-width: 1px;*/
+    border-color:darkgreen;
+}
+div{
+    background-color:rgb(247, 247, 167);
+    padding: 1px 41px 1px 20px;
+}
+li{
+    font-size: 17px;
+}
+img{
+    float:left;
+    width: 300px;
+    height: 300px;
+    margin-right: 5px;
+}
+.titul{
+    margin:auto;
+}
