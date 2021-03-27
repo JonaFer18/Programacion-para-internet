@@ -27,11 +27,11 @@ var score = 0;
 var scoreText;
 function preload ()
 {
-    this.load.image('fondo', 'assets/clouds.png');
-    this.load.image('limite', 'assets/limit.png');
-    this.load.spritesheet('Bombexplota', 'assets/bomb (2).png', { frameWidth: 46, frameHeight: 55 });
-    this.load.spritesheet('personaje', 'assets/adventurer-Sheet.png', { frameWidth: 50, frameHeight: 37 });
-    this.load.spritesheet('ground', 'assets/bomb (1).png', { frameWidth: 53, frameHeight: 40 });
+    this.load.image('fondo', '/assets/clouds.png');
+    this.load.image('limite', '/assets/limit.png');
+    this.load.spritesheet('Bombexplota', '/assets/bomb (2).png', { frameWidth: 46, frameHeight: 55 });
+    this.load.spritesheet('personaje', '/assets/adventurer-Sheet.png', { frameWidth: 50, frameHeight: 37 });
+    this.load.spritesheet('ground', '/assets/bomb (1).png', { frameWidth: 53, frameHeight: 40 });
 }
 
 function create ()
